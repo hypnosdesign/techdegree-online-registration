@@ -12,3 +12,20 @@ https://css-tricks.com/almanac/selectors/p/placeholder/
 RESOURCE:
 Aria describedby
 https://www.w3.org/TR/wai-aria/states_and_properties#aria-describedby
+
+
+   NOTES
+   ========================================================================== 
+	colors
+	HEADER		#2D3946
+	TEXT HEADER #FAFAFA
+	BORDER 		#45688c
+	TEXT		#485d71
+	HEAD TEXT	#222222
+	BG-INPUT 	#EFF0F1
+	BG-BUTTON	#48BBB6
+	BRD-BUTTON: #ccffdd
+
+	font size 	1em   	= 16px
+				2em   	= 32px
+				.75em 	= 12px
