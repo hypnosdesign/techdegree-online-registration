@@ -6,15 +6,19 @@
 * { box-sizing: border-box; }
 
 body {
-	margin-top: 0;
 	background: #FAFAFA;
-	font-family: Varela, serif;
+	font-family: Varela, sans-serif;
 }
 
-
-
-/* HEADING
-   ========================================================================== */
+.brand {
+	margin: 0;
+	color: #FAFAFA;
+	background: #2D3946;
+	text-align: center;
+	padding: .75em;
+	font-family: Merriweather, serif;
+	text-transform: uppercase;
+}
 
 /* FORM STRUCTURE
    ========================================================================== */
