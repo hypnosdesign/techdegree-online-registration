@@ -74,6 +74,7 @@ legend {
 	font-family: Merriweather, serif;
 	font-size: 1.5em; /* 16/24 = 1.5 */
 	font-weight: 700;
+	padding-bottom: 1.125em;
 }
 
 
@@ -83,7 +84,7 @@ input {
    }
 
 label.description {
-	padding: 1.125em 0 .75em 0;
+	padding: 0 0 .75em 0;
 }
 
 input[type="text"],
@@ -182,6 +183,7 @@ footer {
 	text-align: center;
 	font-style: italic;
 	font-size: .75em;
+	padding: 2em 0;
 }
 
 
