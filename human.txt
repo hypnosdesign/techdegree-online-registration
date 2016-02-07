@@ -1,0 +1,6 @@
+
+// CREDITS
+HTML5 patterns inspired from:
+
+http://html5pattern.com/
+http://www.wufoo.com/html5/attributes/10-pattern.html

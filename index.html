@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>The Code Review</title>
+		<link type="text/plain" rel="author" href="humans.txt" />
 		<link rel='stylesheet' href='css/normalize.css'>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela|Merriweather:400,700">
 		<link rel='stylesheet' href='css/main.css'>
@@ -23,10 +24,10 @@
 					<legend>Contact Information</legend>
 					
 					<label for="full_name">Full Name</label>
-					<input type="text" name="full_name" id="full_name">
+					<input type="text" name="full_name" id="full_name" required>
 
 					<label for="mail_address">Email Address</label>
-					<input type="email" name="mail_address" id="mail_address">
+					<input type="email" name="mail_address" id="mail_address" required>
 
 					<label for="phone_number">Phone Number</label>
 					<input type="tel" name="phone_number" id="phone_number">
@@ -127,7 +128,7 @@
 					</select>
 
 					<label for="zip_code">Zip Code</label>
-					<input type="text" name="zip_code" id="zip_code">
+					<input type="text" pattern="[0-9]{5}" maxlength="5" name="zip_code" id="zip_code">
 				</fieldset>
 				<hr>
 				<fieldset>
@@ -144,6 +145,8 @@
 						<label class="description">Other topics you'd like hear about</label>
 							<textarea name="other_topics" id="topic"></textarea>
 				</fieldset>
+
+				<button type="submit">Sign Up!</button>
 		</form>
 		<footer>
 			<p>Copyright &copy; The Code Review</p>
