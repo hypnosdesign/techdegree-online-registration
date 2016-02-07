@@ -20,8 +20,23 @@ body {
 	text-transform: uppercase;
 }
 
+hr {
+	border: none;
+	border-bottom: 2px solid #222222; 
+	padding: 0;
+}
+
+hr.double-hr {
+	height: 5px;
+	border-top: 3px solid #222222;
+}
+
 /* FORM STRUCTURE
    ========================================================================== */
+
+form {
+	padding: 1em;
+}
 
 /* FORM ELEMENTS
    ========================================================================== */
