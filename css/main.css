@@ -8,6 +8,7 @@
 body {
 	background: #FAFAFA;
 	font-family: Varela, sans-serif;
+	color: #2D3946;
 }
 
 .brand {
@@ -20,29 +21,77 @@ body {
 	text-transform: uppercase;
 }
 
+h2, 
+h2 + p {
+	text-align: center;
+	font-family: Merriweather, serif;
+	font-weight: 400;
+
+}
+
+h2 {
+	margin-bottom: 0;
+	font-weight: 700;
+}
+
+h2 + p {
+	margin-top: 6px;
+}
+
 hr {
 	border: none;
-	border-bottom: 2px solid #222222; 
+	border-bottom: 2px solid #2D3946; 
 	padding: 0;
 }
 
 hr.double-hr {
 	height: 5px;
-	border-top: 3px solid #222222;
+	border-top: 3px solid #2D3946;
 }
+
+
 
 /* FORM STRUCTURE
    ========================================================================== */
 
 form {
+	max-width: 600px;
+	margin: 0 auto;
 	padding: 1em;
 }
+
+fieldset {
+	border: none;
+}
+
+
 
 /* FORM ELEMENTS
    ========================================================================== */
 
+legend {
+	font-family: Merriweather, serif;
+	font-size: 1.5em; /* 16/24 = 1.5 */
+	font-weight: 700;
+}
+
+label, 
+input {
+   	display: block;
+   }
+
+label.description {
+	padding: 1.125em 0 .75em 0;
+}
+
 /* FOOTER
    ========================================================================== */
+footer {
+	font-family: Merriweather, serif;
+	text-align: center;
+	font-style: italic;
+	font-size: .75em;
+}
 
 /* UTILITIES
    ========================================================================== */
