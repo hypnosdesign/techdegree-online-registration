@@ -24,27 +24,27 @@
 					<legend>Contact Information</legend>
 					
 					<label for="full_name">Full Name</label>
-					<input type="text" name="full_name" id="full_name" aria-describedby="name-format" required aria-required=”true” pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" title="firstname lastname" placeholder="Required" autofocus>
+					<input type="text" name="full_name" id="full_name" aria-describedby="full_name" required aria-required="true" pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" title="firstname lastname" placeholder="Required" autofocus>
 
 					<label for="birth_day">Birthday</label>
-					<input type="date" name="birth_day" id="birth_day" aria-describedby="birthday" title="your birthday">
+					<input type="date" name="birth_day" id="birth_day" aria-describedby="birth_day" title="your birthday">
 
 					<label for="mail_address">Email Address</label>
-					<input type="email" name="mail_address" id="mail_address" aria-describedby="email-address" required title="your email address" placeholder="Required">
+					<input type="email" name="mail_address" id="mail_address" aria-describedby="mail_address" required title="your email address" placeholder="Required">
 
 					<label for="web_address">Web Site</label>
-					<input type="url" name="web_address" id="web_address" aria-describedby="website-address" title="do not forget to add http://">
+					<input type="url" name="web_address" id="web_address" aria-describedby="web_address" title="do not forget to add http://">
 
 					<label for="phone_number">Phone Number</label>
-					<input type="tel" name="phone_number" id="phone_number" aria-describedby="telephone-number" title="your phone number">
+					<input type="tel" name="phone_number" id="phone_number" aria-describedby="phone_number" title="your phone number">
 
 					<label for="street_address">Street Address</label>
-					<input type="text" name="street_address" id="street_address" aria-describedby="street-address" title="Your Address">
+					<input type="text" name="street_address" id="street_address" aria-describedby="street_address" title="Your Address">
 
 					<label for="city">City</label>
 					<input type="text" name="city" id="city" aria-describedby="city" title="your city">
 
-					<label for="state" aria-describedby="State" title="your State">State</label>
+					<label for="state" aria-describedby="label_state" id="label_state" title="your State">State</label>
 					
 					<select name="state" id="state">
 						<option value="">Choose State</option>
@@ -134,7 +134,7 @@
 					</select>
 
 					<label for="zip_code">Zip Code</label>
-					<input type="text" pattern="[0-9]{5}" maxlength="5" name="zip_code" id="zip_code" aria-describedby="zip code" title="only numbers and 5 digits">
+					<input type="text" pattern="[0-9]{5}" maxlength="5" name="zip_code" id="zip_code" aria-describedby="zip_code" title="only numbers and 5 digits">
 				</fieldset>
 				<hr>
 				<fieldset class="second-field">
